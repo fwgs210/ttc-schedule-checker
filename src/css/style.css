@@ -1,0 +1,75 @@
+.ttc-BG {
+    background: url(http://projects.thestar.com/bombardier-ttc/images/video-poster.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center center; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#f2f2f2;
+}
+.ttc-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #AD0000;
+    margin: -20px -30px 0;
+    padding: 10px 30px;
+}
+.ttc-header .logo {
+    max-width: 40%;
+}
+.ttc-header .header-content {
+    color: #fff;
+    font-size: 1.75rem;
+    letter-spacing: 1px;
+}
+.logo img {
+    max-width: 100%;
+}
+.block {
+    box-shadow: 0px 3px 8px -4px rgba(0,0,0,0.15);
+    background-color: #fff;
+    padding: 20px 30px;
+}
+.block h4 {
+    margin-bottom: 5px;
+}
+.select-options {
+    -webkit-appearance: button;
+    -webkit-border-radius: 2px;
+    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    -webkit-padding-end: 20px;
+    -webkit-padding-start: 2px;
+    -webkit-user-select: none;
+    background-image: url(http://i62.tinypic.com/15xvbd5.png), -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+    background-position: 98% center;
+    background-repeat: no-repeat;
+    border: 1px solid #AAA;
+    color: #555;
+    font-size: 1.5rem;
+    padding: 5px 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    display: block;
+    height: auto;
+}
+.arrive-block {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.arrive-block h2 {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 3rem;
+}
+.small-text {
+    font-size: 1.25rem;
+    font-style: italic;
+    color: #777;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 3px;
+}
