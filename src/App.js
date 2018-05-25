@@ -56,7 +56,8 @@ class App extends Component {
       return stopsTags.indexOf(each.tag) > -1
     })
     this.setState({
-      stops: stops
+      stops: stops,
+      arriveTime: null
     })
   }
 
